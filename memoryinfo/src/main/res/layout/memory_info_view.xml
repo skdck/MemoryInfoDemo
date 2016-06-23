@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#55000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_max_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        tools:text="最大内存" />
+
+    <TextView
+        android:id="@+id/tv_total_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        tools:text="总内存" />
+
+    <TextView
+        android:id="@+id/tv_used_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        tools:text="已用内存" />
+
+    <TextView
+        android:id="@+id/tv_free_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        tools:text="剩余内存" />
+
+
+    <TextView
+        android:id="@+id/tv_native_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        tools:text="本地:" />
+
+</LinearLayout>

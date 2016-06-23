@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#55000000"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tv_mem_info_help"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="
+
+
+        Android官方英文解释：\n\n
+        MaxSize（最大）:Returns the maximum number of bytes the heap can expand to.\n\n
+        TotalSize（当前占用）:Returns the number of bytes taken by the heap at its current size.\n\n
+        FreeSize（剩余）:Returns the number of bytes currently available on the heap without expanding the heap.\n\n
+        AllocatedSize（已分配）: TotalSize - FreeSize\n\n
+        Used（已使用）: (TotalSize - FreeSize) / TotalSize * 100\n\n
+        NativeHeap（本地堆）: Returns the size of the native heap."
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:text="最终解释权归全体Android开发人员"/>
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:text="Close"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
